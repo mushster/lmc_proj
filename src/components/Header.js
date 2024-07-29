@@ -7,13 +7,18 @@ function Header() {
     <AppBar position="static">
       <Toolbar>
         <Typography variant="h6" style={{ flexGrow: 1 }}>
-          Ethical AI Coding
+          <Link to="/" style={{ color: 'inherit', textDecoration: 'none' }}>
+            EthicAI
+          </Link>
         </Typography>
         <Button color="inherit" component={Link} to="/">
           Home
         </Button>
         <Button color="inherit" component={Link} to="/challenge">
-          Challenge
+          Challenges
+        </Button>
+        <Button color="inherit" component={Link} to="/leaderboard">
+          Leaderboard
         </Button>
       </Toolbar>
     </AppBar>

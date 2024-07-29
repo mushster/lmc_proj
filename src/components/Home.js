@@ -3,8 +3,8 @@ import { Typography, Grid, Card, CardContent, CardActions, Button } from '@mui/m
 import { Link } from 'react-router-dom';
 
 const modules = [
-  { id: 1, title: 'Understanding AI Biases', progress: 30 },
-  { id: 2, title: 'Balancing AI and Human Expertise', progress: 0 },
+  { id: 1, title: 'Understanding AI Biases', progress: 100 },
+  { id: 2, title: 'Balancing Expertise', progress: 33 },
   { id: 3, title: 'Privacy and Data Security', progress: 0 },
 ];
 
@@ -12,7 +12,7 @@ function Home() {
   return (
     <div style={{ padding: '20px' }}>
       <Typography variant="h4" gutterBottom>
-        Welcome to Ethical AI Coding Training
+        Welcome, Aryan
       </Typography>
       <Grid container spacing={3}>
         {modules.map((module) => (
